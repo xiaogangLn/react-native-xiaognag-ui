@@ -1,5 +1,5 @@
 {
-  "name": "XiaogangUiExample",
+  "name": "react-native-xiaognag-ui",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,25 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "pods": "pod-install --quiet"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "cardview"
+  ],
+  "author": {
+    "name": "local",
+    "email": "1783415975@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiaogangLn/react-native-xiaognag-ui.git"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -18,5 +37,8 @@
     "@babel/runtime": "^7.20.0",
     "metro-react-native-babel-preset": "0.73.8",
     "babel-plugin-module-resolver": "^4.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
   }
 }

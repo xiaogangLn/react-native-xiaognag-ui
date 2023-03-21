@@ -11,11 +11,12 @@ npm install react-native-xiaogang-ui
 ## Usage
 
 ```js
-import { multiply } from 'react-native-xiaogang-ui';
+import { multiply, consttiply } from 'react-native-xiaogang-ui';
 
 // ...
 
 const result = await multiply(3, 7);
+const resultAction = await consttiply(5, 7);
 ```
 
 ## Contributing

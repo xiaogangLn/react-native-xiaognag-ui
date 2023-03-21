@@ -19,6 +19,12 @@ class XiaogangUiModule(reactContext: ReactApplicationContext) :
     promise.resolve(a * b)
   }
 
+  @ReactMethod
+  fun consttiply (a: Double, b: Double, promise: Promise) {
+    promise.resolve(a * b * b)
+  }
+
+
   companion object {
     const val NAME = "XiaogangUi"
   }

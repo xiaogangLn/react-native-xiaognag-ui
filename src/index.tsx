@@ -20,3 +20,6 @@ const XiaogangUi = NativeModules.XiaogangUi
 export function multiply(a: number, b: number): Promise<number> {
   return XiaogangUi.multiply(a, b);
 }
+export function consttiply(a: number, b: number): Promise<number> {
+  return XiaogangUi.consttiply(a, b);
+}
